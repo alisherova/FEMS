@@ -1,0 +1,1 @@
+export {default as AntdModal} from './modal';

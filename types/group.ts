@@ -1,0 +1,45 @@
+import { TGroupType } from "./groupType";
+import { IGroupMentor } from "./groupMentors";
+import { ILevel } from "./level";
+import { ICourse } from "./course";
+import { ILessonDay } from "./lessonDay";
+import { ILessonTime } from "./lessonTime";
+import { IRoom } from "./rooms";
+import { IContacts } from "./contact";
+
+export interface IGroup {
+  id: string;
+  company_id: string;
+  course_id: string;
+  level_id: string;
+  group_type_id: string;
+  lesson_day_id: string;
+  lesson_time_id: string;
+  room_id: string;
+  status: string;
+  state: string;
+  note: string;
+  start_date: Date;
+  name: string;
+  deleted_at: null | string;
+  version_id: string;
+  groupType: TGroupType;
+  payment_count: number;
+  free_place: number;
+  groupMentors?: IGroupMentor[];
+  level?: ILevel;
+  total_study_contact_count?: string;
+  active_contact_count?: string;
+  transferred_contact_count?: string;
+  new_student_not_attended_contact_count?: string;
+  new_student_attended_contact_count?: string;
+  partial_payed_count?: string;
+  average_age?: number;
+  podo_count?: number;
+  course?: ICourse;
+  lessonDay?: ILessonDay;
+  lessonDays?: string[];
+  lessonTime?: ILessonTime;
+  room?: IRoom;
+  allContacts?: IContacts[];
+}

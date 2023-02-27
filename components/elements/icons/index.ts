@@ -1,0 +1,12 @@
+export {default as SearchSvg} from './search';
+export {default as GraduationSvg} from './graduationHat';
+export {default as TickedSvg} from './ticked';
+export {default as NonUserSvg} from './nonUser';
+export {default as AttentionSvg} from './attention';
+export {default as ExampleSvg} from './example';
+export {default as NotificationSvg} from './notification';
+export {default as StockSvg} from './stock';
+export {default as ListSvg} from './listDoc';
+export {default as ArrowTopSvg} from './arrowTop';
+export {default as PlusSvg} from './plus';
+export {default as ThreeDotsSvg} from './threeDotRounded';

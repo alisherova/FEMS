@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+    font-family: 'Inter', sans-serif !important;
+}
+
+.title {
+    padding-left: 4px;
+    font-size: 20px;
+    color: #171A2B;
+    font-weight: 600;
+}
+
+.title-light {
+    font-size: 20px;
+    color: white;
+    font-weight: 600;
+}
+
+.text-wrap {
+    display: block;
+    text-overflow: ellipsis;
+    overflow-x: hidden;
+    white-space: nowrap;
+}
